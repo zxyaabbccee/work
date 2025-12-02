@@ -1,0 +1,22 @@
+<resources>
+    <!-- 基础主题（UI美化） -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item> <!-- 窗口背景 -->
+        <item name="actionBarStyle">@style/CustomActionBar</item> <!-- 自定义ActionBar -->
+    </style>
+
+    <!-- 自定义ActionBar样式 -->
+    <style name="CustomActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/colorPrimary</item> <!-- ActionBar背景 -->
+        <item name="titleTextStyle">@style/CustomActionBarTitle</item> <!-- 标题样式 -->
+    </style>
+
+    <!-- ActionBar标题样式 -->
+    <style name="CustomActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/item_bg"> <!-- 列表项圆角背景 -->
+
+    <!-- 代办标记（可选显示） -->
+    <TextView
+        android:id="@+id/tv_todo_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:padding="2dp"
+        android:background="@drawable/todo_tag_bg"
+        android:visibility="gone" />
+
+    <!-- 分类标签 -->
+    <TextView
+        android:id="@+id/tv_category_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:background="@drawable/category_tag_bg"
+        android:layout_marginTop="4dp"
+        android:visibility="gone" />
+        
+    <!-- 笔记标题 -->
+    <TextView
+        android:id="@+id/tv_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp" />
+
+    <!-- 时间戳 -->
+    <TextView
+        android:id="@+id/tv_note_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/time_color"
+        android:layout_marginTop="2dp" />
+
+</LinearLayout>

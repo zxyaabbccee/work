@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用名称 -->
+    <string name="app_name">记事本</string>
+    
+    <!-- 列表界面相关 -->
+    <string name="search_hint">搜索笔记...</string>
+    <string name="empty_notes_message">暂无笔记，点击右上角"新增"按钮创建第一条笔记</string>
+    <string name="menu_add_note">新增</string>
+    <string name="menu_export_notes">导出</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_settings">设置</string>
+    <string name="export_success">笔记导出成功</string>
+    <string name="export_failed">笔记导出失败</string>
+    
+    <!-- 编辑界面相关 -->
+    <string name="note_title_hint">标题</string>
+    <string name="note_content_hint">内容...</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_back">返回</string>
+    <string name="delete_note_confirm_title">确认删除</string>
+    <string name="delete_note_confirm_message">确定要删除这条笔记吗？此操作不可撤销。</string>
+    <string name="delete_note_success">笔记已删除</string>
+    <string name="delete_note_failed">删除失败</string>
+    <string name="save_note_success">保存成功</string>
+    <string name="save_note_failed">保存失败</string>
+    <string name="new_note">新建笔记</string>
+    
+    <!-- 对话框按钮 -->
+    <string name="button_ok">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_yes">是</string>
+    <string name="button_no">否</string>
+    
+    <!-- 错误信息 -->
+    <string name="error_loading_notes">加载笔记失败</string>
+    <string name="error_creating_note">创建笔记失败</string>
+    <string name="error_updating_note">更新笔记失败</string>
+    <string name="error_deleting_note">删除笔记失败</string>
+    <string name="error_permission_denied">权限被拒绝</string>
+    
+    <!-- 时间格式相关 -->
+    <string name="date_format">yyyy-MM-dd HH:mm</string>
+    <string name="date_format_today">今天 HH:mm</string>
+    <string name="date_format_yesterday">昨天 HH:mm</string>
+    
+    <!-- 其他 -->
+    <string name="app_version">版本 1.0</string>
+    <string name="app_description">简单实用的记事本应用</string>
+</resources>

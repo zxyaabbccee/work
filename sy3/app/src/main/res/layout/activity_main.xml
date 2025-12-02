@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#000000"
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:id="@+id/button_custom_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示自定义对话框"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/button_menu_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到菜单Activity"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/button_action_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到ActionMode列表"
+        android:layout_margin="16dp" />
+
+</LinearLayout>

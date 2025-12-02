@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- 新增笔记 -->
+    <item
+        android:id="@+id/menu_add_note"
+        android:title="新增笔记"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom" />
+    <!-- 刷新 -->
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="刷新"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="never" />
+    <!-- 分类筛选 -->
+    <item
+        android:id="@+id/menu_category"
+        android:title="分类筛选"
+        android:icon="@android:drawable/ic_menu_more"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color> <!-- 主题主色 -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- 状态栏颜色 -->
+    <color name="colorAccent">#03DAC6</color> <!-- 强调色 -->
+    <color name="background">#F5F5F5</color> <!-- 全局背景色 -->
+    <color name="divider">#E0E0E0</color> <!-- 列表分割线 -->
+    <color name="time_color">#757575</color> <!-- 时间戳颜色 -->
+    <color name="blue">#2196F3</color> <!-- 代办正常颜色 -->
+    <color name="red">#F44336</color> <!-- 代办过期颜色 -->
+    <color name="white">#FFFFFF</color> <!-- 白色 -->
+</resources>

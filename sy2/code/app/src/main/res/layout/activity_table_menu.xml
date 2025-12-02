@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2C2C2C"
+    tools:context=".MainActivity">
+
+    <!-- 标题栏 -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Hello TableLayout"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="#404040"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <!-- 菜单表格 -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2C2C2C"
+        android:stretchColumns="1">
+
+        <!-- Open 菜单项 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#404040">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Open..."
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingStart="12dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ctrl-O"
+                android:textColor="#CCCCCC"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingEnd="12dp" />
+
+        </TableRow>
+
+        <!-- Save 菜单项 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#404040">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Save..."
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingStart="12dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ctrl-S"
+                android:textColor="#CCCCCC"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingEnd="12dp" />
+
+        </TableRow>
+
+        <!-- Save As 菜单项 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#404040">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Save As..."
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingStart="12dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ctrl-Shift-S"
+                android:textColor="#CCCCCC"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingEnd="12dp" />
+
+        </TableRow>
+
+        <!-- 分隔线 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_span="2"
+                android:background="#555555" />
+
+        </TableRow>
+
+        <!-- Import 菜单项 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#404040">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="✗ Import..."
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingStart="12dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#CCCCCC"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingEnd="12dp" />
+
+        </TableRow>
+
+        <!-- Export 菜单项 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#404040">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="✗ Export..."
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingStart="12dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ctrl-E"
+                android:textColor="#CCCCCC"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingEnd="12dp" />
+
+        </TableRow>
+
+        <!-- 分隔线 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_span="2"
+                android:background="#555555" />
+
+        </TableRow>
+
+        <!-- Quit 菜单项 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#404040">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Quit"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingStart="12dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#CCCCCC"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:paddingEnd="12dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
